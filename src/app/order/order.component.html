@@ -1,0 +1,261 @@
+<div class="order-body">
+  <div class="title">
+    <h3>Purchase Order</h3>
+  </div>
+  <div class="overview">
+    <span class="span-buffer">PO Buffer</span>
+    <span class="span-total">Total: </span>
+    <span class="span-total-number">326</span>
+    <button class="btn btn-danger">Maintance</button>
+  </div>
+  <div class="query-conditions">
+    <form class="form-horizontal" id = "my_form_active">
+      <div class="form-group">
+        <div class="row">
+          <div class="col-lg-6" style="padding-left: 15px;padding-right: 10px">
+            <input type="text" class="form-control input-sm" placeholder="PO No">
+          </div>
+          <div class="col-lg-6" style="padding-left: 0;padding-right: 15px">
+            <input type="text" class="form-control input-sm" placeholder="Company No">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6" style="padding-left: 15px;padding-right: 10px">
+            <input type="text" class="form-control input-sm" placeholder="PO No">
+          </div>
+          <div class="col-md-6" style="padding-left: 0;padding-right: 15px">
+            <input type="text" class="form-control input-sm" placeholder="Company No">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="filters">
+    <button class="btn btn-danger btn-create-po" routerLink="/order/create">Create PO</button>
+    <button class="btn btn-danger btn-upload-csv">Upload CSV</button>
+    <input type="text" class="form-control input-sm search-input" placeholder="Seller" />
+    <input type="text" class="form-control input-sm date-picker" placeholder="2021-4-4 - 2021-4-9" />
+    <select class="form-control status-selector">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    <select class="form-control vender-selector">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    <button class="btn btn-default btn-filter-column">Filter Column</button>
+    <button class="btn btn-default btn-customize-column">Customize Column</button>
+  </div>
+  <div class="po-table">
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th>PO#</th>
+        <th>PO Vender</th>
+        <th>EXCEPTION</th>
+        <th>Total Unit</th>
+        <th>CARGO READY BY</th>
+        <th>MUST ARRIVE BY</th>
+        <th>SELLER</th>
+        <th>BUYER</th>
+        <th>STATUS</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      <tr>
+        <td>4356881</td>
+        <td>ZHEJIANG HENGDI BEDDING CO</td>
+        <td>EXCEPTION</td>
+        <td>32</td>
+        <td>MAR 26,2021</td>
+        <td>MAR 31,2021</td>
+        <td>SELLER</td>
+        <td>BUYER</td>
+        <td><span class="status-span">STATUS</span></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

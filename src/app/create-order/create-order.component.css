@@ -1,0 +1,32 @@
+.group-name h4{
+  margin-top: 0 !important;
+  color: #272459;
+  font-weight: 600;
+  font-size: 13px !important;
+}
+.group-name{
+  margin-top: 10px;
+}
+.nav-tabs{
+  border: 0;
+  color: #6A688D;
+}
+.nav-tabs a{
+  border: 0;
+  color: #6A688D;
+}
+.input-label{
+  color: #787697;font-size: 12px;
+}
+input{
+  border: 1px solid #DCE3F1;
+}
+.row{
+  margin-bottom: 20px;
+}
+.footer{
+  float: right;
+}
+.footer button{
+  margin-right: 20px;
+}
