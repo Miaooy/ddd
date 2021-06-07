@@ -5,9 +5,12 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { LeftBarComponent } from './left-bar/left-bar.component';
 import { MainBodyComponent } from './main-body/main-body.component';
-import { OrderComponent } from './order/order.component';
-import { CreateOrderComponent } from './create-order/create-order.component';
+import { OrderListComponent } from './order-list/order-list.component';
+import { OrderCreateComponent } from './order-create/order-create.component';
 import { AppRoutingModule } from './app-routing.module';
+import { OrderDetailComponent } from './order-detail/order-detail.component';
+import { OrderItemsComponent } from './order-items/order-items.component';
+import { OrderComponent } from './order/order.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +18,11 @@ import { AppRoutingModule } from './app-routing.module';
     TopBarComponent,
     LeftBarComponent,
     MainBodyComponent,
-    OrderComponent,
-    CreateOrderComponent
+    OrderListComponent,
+    OrderCreateComponent,
+    OrderDetailComponent,
+    OrderItemsComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
